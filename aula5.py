@@ -6,14 +6,15 @@
 # if(velocidade <= 100):
 #     print("Você não foi multado")
 # elif (velocidade > 150):
-#     print(f"Você foi multado no valor de: R${multa}")
+#     print(f"Você estava a {velocidade} km/h, e foi multado no valor de: R${multa:.2f}")
 
 
 # Desafio 2
-
+# (oque eu fiz){
 # num1 = int(input("Escreva o primeira número: "))
 # num2 = int(input("Escreva o segundo número: "))
 # num3 = int(input("Escreva o terceiro número: "))
+# maior = null
 
 # if(num1 > num2 and num3 < num2):
 #     print(f"Maior: {num1} Menor: {num3}")
@@ -21,13 +22,32 @@
 #     print(f"Maior: {num2} Menor: {num3}")
 # elif(num3 > num2 and num1 < num2):
 #     print(f"Maior: {num3} Menor: {num2}")
+# }
+
+# (oque o fabiano fez){
+# x = int(input("Escreva o primeira número: "))
+# y = int(input("Escreva o segundo número: "))
+# z = int(input("Escreva o terceiro número: "))
+# maior = x
+
+# if(y > x and y > z):
+#     maior = y
+# elif(x > y and x > z):
+#     menor = z
+#     maior = x
+# elif(z > y and z > x):
+#     menor = x
+#     maior = z
+
+# print(f"Maior: {maior} Menor: {menor}")
+# }
 
 
 # Desafio 3
 
 num1 = int(input("Escreva o primeira número: "))
-num2 = int(input("Escreva o segundo número: "))
 operacao = input("Escolha uma das operações matemáticas: ")
+num2 = int(input("Escreva o segundo número: "))
 
 if(operacao == "multiplicação" or operacao == "Multiplicação" 
    or operacao == "Multiplicacaoo" or operacao == "multiplicacaoo"):
