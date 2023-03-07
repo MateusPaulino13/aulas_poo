@@ -25,7 +25,6 @@
 
 
 # problema: encontrar o maior número
-# terminar
 a = int(input("Digite o primeiro número: "))
 b = int(input("Digite o segundo número: "))
 c = int(input("Digite o terceiro número: "))
@@ -38,3 +37,5 @@ elif(b > a and a > c):
     print(f"Maior: {b}, Menor: {c}")
 elif(c > a and a > b):
     print(f"Maior: {c}, Menor: {b}")
+elif(c > b and b > a):
+    print(f"Maior: {c}, Menor: {a}")
