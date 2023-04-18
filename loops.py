@@ -35,10 +35,17 @@ for i in names:
 #   print(f"{num} X {i} = {result}")
 
 
-for i in range(1, 6, 1):
-  num = int(input("Digite sua nota: "))
-  soma += num
+# soma = 0
+
+# for i in range(5):
+#     num = float(input("Digite a nota: "))
+#     soma += num
+
+# media = soma / 5
+# print(f"Sua média é de: {media}")
 
 
-
-print(soma / 5)
+for i in range(11):
+    for a in range(11):
+        print(f"{i} X {a} = {i*a}")
+        print("|------------|")
