@@ -28,10 +28,10 @@
 
 import math as mt
 
-def Elevar(base, expoente):
+def elevar(base, expoente):
     return mt.pow(base, expoente)
 
 b = float(input("Digite um número para a base: "))
 e = float(input("Digite um número para o expoente: "))
 
-print(f"O Resultado foi de: {Elevar(b,e)}")
+print(f"O Resultado foi de: {elevar(b,e)}")
