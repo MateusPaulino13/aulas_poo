@@ -6,27 +6,30 @@
 # print(dobro_numero(num))
 
 # soma da lista
-# def soma_lista(lista):
-#     return sum(lista)
+def soma_lista(lista):
+    return f"A soma dos valores é de: {sum(lista)}"
 
-# list = (1, 7, 8, 3, 9)
-# print(soma_lista(list))
+list = []
+for i in range(5):
+    numero = int(input("Digite um número: "))
+    list.append(numero)
+print(soma_lista(list))
 
 # maior número da lista
 # def maior_numero(lista):
 #     return max(lista)
 
-# lista = (1, 9, 5, 80, 54, 27)
+
 # print(maior_numero(lista))
 
 # desafio
-def somaImposto(taxaImposto, custo):
-    imposto = taxaImposto / 100
-    taxa = custo * imposto
+# def somaImposto(taxaImposto, custo):
+#     imposto = taxaImposto / 100
+#     taxa = custo * imposto
 
-    return custo + taxa
+#     return custo + taxa
 
-valorProduto = float(input("Digite o valor do produto: "))
-taxa = float(input("Digite a taxa do imposto: "))
+# valorProduto = float(input("Digite o valor do produto: "))
+# taxa = float(input("Digite a taxa do imposto: "))
 
-print(somaImposto(taxa, valorProduto))
+# print(somaImposto(taxa, valorProduto))
