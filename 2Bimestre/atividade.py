@@ -25,4 +25,4 @@ import math
 def quadrado(num):
     return math.pow(num, 2)
 
-print(quadrado(750))
+print(quadrado(float(input("Digite um número: "))))
