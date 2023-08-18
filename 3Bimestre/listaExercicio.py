@@ -51,6 +51,41 @@
 
 
 # 3
-class feiraLivre():
-    def __init__(self, nome):
-        self.nome = nome
+# class feiraLivre():
+#     def __init__(self, nome):
+#         self.nome = nome
+#         self.frutas = ["Banana", "Morango", "Uva", "Abacaxi", "Amora"]
+
+#     def mostrarFrutas(self):
+#         for i in self.frutas:
+#             print(i)
+
+#     def selecaoFruta(self, fruta):
+#         if(fruta in self.frutas):
+#             print(f"Fruta escolhida: {fruta}")
+
+# nome = input("Digite seu nome: ")
+# feira = feiraLivre(nome)
+# feira.mostrarFrutas()
+# fruta = input("Qual a fruta para ser selecionada: ")
+# feira.selecaoFruta(fruta)
+
+
+# 4
+class Agenda:
+    def __init__(self):
+        self.agenda = []
+    
+    def adicionar_contato(self, nome, telefone):
+        self.agenda.append((nome, telefone))  # Adicionando uma tupla (nome, telefone)
+
+    def listar_contatos(self):
+        for contato in self.agenda:  # Iterar sobre os elementos da lista
+            nome, telefone = contato  # Desempacotar a tupla
+            print(f"Nome: {nome}, Telefone: {telefone}")
+
+agenda = Agenda()
+nome = input("Qual o seu nome: ")
+telefone = input("Qual o seu telefone: ")
+agenda.adicionar_contato(nome, telefone)
+agenda.listar_contatos()
