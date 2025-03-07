@@ -37,6 +37,11 @@ public class Caneta {
     {
         this.SerialNumber = serialNumber;
     }
+
+    public boolean VerifyPencilCover()
+    {
+        return this.IsClosed; 
+    }
     
     @Override
     public String toString()
